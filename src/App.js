@@ -15,6 +15,7 @@ function App() {
         <HeaderBar/>
           <Routes>
             <Route path="Random-User-Generator-React/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="about" element={<About/>} />
             <Route path="namelist" element={<NameList/>} />
             <Route path="namelistc" element={<NameListC/>} />
